@@ -1,0 +1,12 @@
+[
+    {
+        "Question": "What did I do on 2015-09-08 Tuesday?",
+        "Solution": "Query the database with the function <<find_activity>> using date [[2015-09-08 Tuesday]].",
+        "Explanation": "The question asks for the activities, thus we can query the database with the function <<find_activity>>. The question specifically asks for the activities on [[2015-09-08 Tuesday]], thus we can query the function <<find_activity>> using the date [[2015-09-08 Tuesday]]."
+    },
+    {
+        "Question": "What did I do on Wednesday?",
+        "Solution": "Query the database with the function <<find_activity>> using date [[Wednesday]].",
+        "Explanation": "The question asks for the activities, thus we can query the database with the function <<find_activity>>. The question specifically asks for the activities on [[Wednesday]], thus we can query the function <<find_activity>> using the date [[Wednesday]]."
+    }
+]

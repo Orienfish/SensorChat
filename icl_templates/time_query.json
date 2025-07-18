@@ -1,0 +1,12 @@
+[
+    {
+        "Question": "How much total time did I spend eating on Thursday?",
+        "Solution": "Query the database with the function <<calculate_duration>> using activity ((eating)) and date [[Thursday]].",
+        "Explanation": "The question asks for the total duration, thus we can query the database with the function <<calculate_duration>> to obtain the total duration. The question specifically asks for the total duration of ((eating)), thus we can query the function <<calculate_duration>> using activity ((eating)). The question also asks for the total duration on [[Thursday]], thus we can query the function <<calculate_duration>> using the date [[Thursday]]."
+    },
+    {
+        "Question": "What time do I get home in the afternoon on 2015-09-16 Wednesday?",
+        "Solution": "Query the database with the function <<detect_first_time>> using activity ((at home) and date [[2015-09-16 Wednesday]].",
+        "Explanation": "The question asks for the concrete start time, thus we can query the database with the function <<detect_first_time>> to obtain the first time that the user did some activity. The question specifically asks for the first time of going back to home, thus we can query the function <<detect_first_time>> using activity ((at home)). The question also asks for the concrete start time on [[2015-09-16 Wednesday]], thus we can query the function <<detect_first_time>> using the date [[2015-09-16 Wednesday]]."
+    }
+]

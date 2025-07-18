@@ -1,0 +1,7 @@
+[
+    {
+        "Question": "How much total time did I spend eating on Thursday?",
+        "Solution": "Query the database with the function <<calculate_duration>> using activity ((eating)) and date [[Thursday]].",
+        "Explanation": "The question asks for the total duration, thus we can query the database with the function <<calculate_duration>> to obtain the total duration. The question specifically asks for the total duration of ((eating)), thus we can query the function <<calculate_duration>> using activity ((eating)). The question also asks for the total duration on [[Thursday]], thus we can query the function <<calculate_duration>> using the date [[Thursday]]."
+    }
+]

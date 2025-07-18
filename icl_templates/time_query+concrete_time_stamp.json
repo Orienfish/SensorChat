@@ -1,0 +1,7 @@
+[
+    {
+        "Question": "What time do I go to bed on 2015-09-16 Wednesday?",
+        "Solution": "Query the database with the function <<detect_first_time>> using activity ((sleeping)) and date [[2015-09-16 Wednesday]].",
+        "Explanation": "The question asks for the concrete start time, thus we can query the database with the function <<detect_first_time>> to obtain the first time that the user did some activity. The question specifically asks for the first time of going to bed, thus we can query the function <<detect_first_time>> using activity ((sleeping)). The question also asks for the concrete start time on [[2015-09-16 Wednesday]], thus we can query the function <<detect_first_time>> using the date [[2015-09-16 Wednesday]]. "
+    }
+]

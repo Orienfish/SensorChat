@@ -1,0 +1,12 @@
+[
+    {
+        "Question": "How many times did I engage in the in class activity on Wednesday?",
+        "Solution": "Query the database with the function <<calculate_frequency>> using activity ((in class)) and date [[Wednesday]].",
+        "Explanation": "The question asks for the frequency of activities, thus we can query the database with the function <<calculate_frequency>>. The question specifically asks for the frequency of ((in class)), thus we can query the function <<calculate_frequency>> using activity ((in class)). The question also asks for the activity frequency on [[Wednesday]], thus we can query the function <<calculate_frequency>> using the date [[Wednesday]]."
+    },
+    {
+        "Question": "How many days was I at home?",
+        "Solution": "Query the database with the function <<calculate_days>> using activity ((at home)) and date [[all days]].",
+        "Explanation": "The question asks for the total number of days, thus we can query the database with the function <<calculate_days>>. The question specifically asks for the total number of days when the user is ((at home))|, thus we can query using activity ((at home)). To iterate through all days, we can query the function using the date [[all days]]."
+    }
+]

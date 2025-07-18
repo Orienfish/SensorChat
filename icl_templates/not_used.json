@@ -1,0 +1,7 @@
+[
+    {
+        "Question": "What time did I eat for the latest time on Friday?",
+        "Solution": "Query the database with the function <<detect_last_time>> using activity ((eating)) and date [[Friday]].",
+        "Explanation": "The question asks for the concrete latest time, thus we can query the database with the function <<detect_last_time>> to obtain the latest time that the user did some activity. The question specifically asks for the last time of eating, thus we can query the function <<detect_last_time>> using activity ((eating)). The question also asks for the concrete latest time on [[Friday]], thus we can query the function <<detect_last_time>> using the date [[Friday]]. "
+    }
+]

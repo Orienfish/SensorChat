@@ -1,0 +1,12 @@
+[
+    {
+        "Question": "What did I spend the most time doing?",
+        "Solution": "Query the database with the function <<calculate_duration>> using ((all activities)) and date [[all days]].",
+        "Explanation": "The question asks for a concrete activity that the user spends the most time doing, thus we need to query the duration of all activities in the database. We can query the database with the function <<calculate_duration>> to obtain the total duration on each day. To obtain the total duration of all activities, we can query the function <<calculate_duration>> using ((all activities)). To obtain the total duration on all days, we can query the function <<calculate_duration>> using [[all days]]."
+    },
+    {
+        "Question": "Did I walk more times than I ate on Thursday?",
+        "Solution": "Query the database with the function <<calculate_duration>> using activity ((walking, eating)) and date [[Thursday]].",
+        "Explanation": "The question asks for comparing the duration of activities, thus we can query the database with the function <<calculate_duration>> to obtain the total duration of each activity. The question specifically asks for comparing walking and eating, thus we can query the function <<calculate_duration>> using activity ((walking, eating)). The question also asks for [[Thursday]], thus we can query the function <<calculate_duration>> using the date [[Thursday]]."
+    }
+]

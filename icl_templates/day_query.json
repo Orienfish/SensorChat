@@ -1,0 +1,17 @@
+[
+    {
+        "Question": "On what day did I spend the most time in school?",
+        "Solution": "Query the database with the function <<calculate_duration>> using activity ((in school)) and date [[all days]].",
+        "Explanation": "The question asks for a concrete day that the user spends the most time in school, thus we need to query the duration of all days in the database. We can query the database with the function <<calculate_duration>> to obtain the total duration on each day. The question specifically asks for the total duration of ((in school)), thus we can query the function <<calculate_duration>> using activity ((in school)). To obtain the total duration on all days, we can query the function <<calculate_duration>> using the date [[all days]]."
+    },
+    {
+        "Question": "On what day did I excercise?",
+        "Solution": "Query the database with the function <<calculate_duration>> using activity ((excercise)) and date [[all days]].",
+        "Explanation": "The question asks for the concrete days that the user exercise, thus we need to query the duration of all days in the database. We can query the database with the function <<calculate_duration>> to obtain the total duration on each day. The question specifically asks for the total duration of ((exercise)), thus we can query the function <<calculate_duration>> using activity ((exercise)). To obtain the total duration on all days, we can query the function <<calculate_duration>> using the date [[all days]]."
+    },
+    {
+        "Question": "What activity did I do the most on Saturday?",
+        "Solution": "Query the database with the function <<calculate_duration>> using activity ((all activities)) and date [[Saturday]].",
+        "Explanation": "The question asks for a concrete activity that the user spends the most time doing, thus we need to query the duration of all activities in the database. We can query the database with the function <<calculate_duration>> to obtain the total duration. To obtain the total duration of all activities, we can query the function <<calculate_duration>> using ((all activities)). The question specifically asks for the total duration on [[Saturday]], thus we can query the function <<calculate_duration>> using the date [[Saturday]]."
+    }
+]
